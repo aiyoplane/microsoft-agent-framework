@@ -1,6 +1,6 @@
 {
   "name": "@aiyoplane/microsoft-agent-framework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AEAP Composition Boundary Adapter for the Microsoft Agent Framework. Thin wrapper that attaches the Runtime Decision Point to agent middleware and workflow execution.",
   "keywords": [
     "aiyo",
@@ -42,8 +42,5 @@
   },
   "dependencies": {
     "@aiyoplane/mcp-authz": "^1.0.0"
-  },
-  "peerDependencies": {
-    "@microsoft/agent-framework": ">=0.1.0"
   }
 }
