@@ -1,0 +1,49 @@
+{
+  "name": "@aiyoplane/microsoft-agent-framework",
+  "version": "1.0.0",
+  "description": "AEAP Composition Boundary Adapter for the Microsoft Agent Framework. Thin wrapper that attaches the Runtime Decision Point to agent middleware and workflow execution.",
+  "keywords": [
+    "aiyo",
+    "aiyoplane",
+    "aeap",
+    "microsoft",
+    "agent-framework",
+    "authorization",
+    "runtime-decision-point",
+    "rdp",
+    "execution-receipt",
+    "composition-boundary",
+    "middleware",
+    "workflow",
+    "enterprise-agents"
+  ],
+  "author": {
+    "name": "Aiyoplane, Inc.",
+    "email": "rashon@aiyoplane.com",
+    "url": "https://aiyoplane.com"
+  },
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": { "import": "./src/index.js" }
+  },
+  "files": ["src/", "README.md", "LICENSE", "NOTICE"],
+  "engines": { "node": ">=18.0.0" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiyoplane/microsoft-agent-framework.git"
+  },
+  "bugs": { "url": "https://github.com/aiyoplane/microsoft-agent-framework/issues" },
+  "homepage": "https://aiyoplane.com",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/minimal.js"
+  },
+  "dependencies": {
+    "@aiyoplane/mcp-authz": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@microsoft/agent-framework": ">=0.1.0"
+  }
+}

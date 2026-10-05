@@ -1,0 +1,20 @@
+aiyoplane-microsoft-agent-framework
+Copyright 2026 Aiyoplane, Inc.
+
+This product includes software developed by Aiyoplane, Inc.
+(https://aiyoplane.com).
+
+Licensed under the Apache License, Version 2.0.
+
+----------------------------------------------------------------------
+
+This package is an AEAP Composition Boundary Adapter — a thin wrapper
+that attaches the AEAP Runtime Decision Point (via aiyoplane-mcp-authz)
+to the Microsoft Agent Framework middleware and workflow execution surface.
+
+Specification: https://github.com/aiyoplane/aeap
+Trust surface: https://aiyoplane.com/trust
+
+Microsoft, Microsoft Agent Framework, AutoGen, and Semantic Kernel are
+trademarks of Microsoft Corporation. This package is an independent AEAP
+adapter and is not affiliated with or endorsed by Microsoft Corporation.
